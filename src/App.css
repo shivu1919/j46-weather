@@ -1,0 +1,89 @@
+#first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+
+#first>input{
+  height: 45px;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid black;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#first>button{
+  height: 45px;
+  width: fit-content;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#second{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(23, 24, 24, 0.806);
+}
+
+#main{
+  color: red;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+#fourth{
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-around;
+  color: red;
+}
+
+#forecast{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+#s1{
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@keyframes rotate{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
