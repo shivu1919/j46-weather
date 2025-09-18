@@ -44,7 +44,7 @@ function App() {
   const [sixthHour, setSixthHour] = useState('')
 
   function checkWeather() {
-    axios.get(`http://api.weatherapi.com/v1/forecast.json?key=412b492bf8de4497ae193119252801&q=${city}`)
+    axios.get(`https://api.weatherapi.com/v1/forecast.json?key=412b492bf8de4497ae193119252801&q=${city}`)
       .then((res) => {
         console.log(res)
         setCity('')
